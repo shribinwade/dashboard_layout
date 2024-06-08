@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
+  sidebarOpen:any=true;
+
+  sideBarToggler(){
+     console.log("parentSideBar");
+     
+        this.sidebarOpen=!this.sidebarOpen;
+  }
   title = 'DataNemesis';
 }

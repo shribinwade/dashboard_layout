@@ -1,0 +1,75 @@
+.logo{
+    text-align: center;
+    padding: 2.6rem 1rem;
+
+    img{
+        width: 50px;
+    }
+}
+
+.mat-icon{
+    vertical-align: middle;
+    margin-right: 1rem;
+   
+}
+.mat-divider{
+    border-top-width: 2px;
+    border-color: white;
+}
+
+.mat-mdc-list-base {
+    --mdc-list-list-item-label-text-color: rgba(187, 202, 244, 0.87);
+    --mdc-list-list-item-hover-label-text-color: rgb(255 255 255 / 87%);
+    --mdc-list-list-item-focus-label-text-color: rgb(255 255 255 / 100%);
+    --mdc-list-list-item-focus-state-layer-color: #f0ecec;
+    --mdc-list-list-item-focus-state-layer-opacity: 0.12;
+}
+
+
+.mdc-list-item{
+    border-radius:10px ;
+    margin: 10px;
+    margin-right: 100px;
+   width: 91%;
+    vertical-align: middle;
+    color: #fcfcfc !important;
+    font-size: 0.8rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+    ::ng-deep{
+        .mat-list-item-content{
+        color: #fcfcfc;
+        border-radius: 5px;
+        margin: 0 8px;
+        &:hover{
+            background: #eaeaeb !important;
+        }
+    }
+  }
+
+}
+
+h2{
+            margin-top: 1px;
+            margin-left: 16px;
+            color: rgba(187, 202, 244, 0.87);
+            font-size: 0.6rem;
+            font-weight: 200px;
+            letter-spacing: 1px;
+        
+    
+}
+.mat-subheader{
+    
+    color: #94a3b8;
+    font-size: 0.6rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.sidenav-nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,36 @@
+mat-toolbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #f7f7f7;
+}
+
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+button{
+    background: transparent;
+}
+.user{
+    border-radius: 40px;
+    font-size: 15px;
+}
+.user-image{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.user-image-icon{
+    margin-top: 6px;
+    height: 18px;
+    font-size: 19px;
+}
+.mat-stroked-button{
+    border-radius: 40px;
+}
+.mat-icon-button{
+    margin-top: 1px;
+}
